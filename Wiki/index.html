@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olimpiadas de Basquete</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px;
+        }
+            th, td{
+                border: 1px solid #ccc;
+                padding: 8px;
+                text-align: left;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+
+    </style>
+</head>
+<body>
+    <center>
+        <header
+            style="display: flex;
+        justify-content: left;
+        width: 90%;
+        height: 80px;
+        border-bottom: 1px solid #f0f1f2;
+        
+        ">
+                <svg style="width: 20px; height:20px; margin-top:20px" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none"><path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="currentColor" d="M20 17.5a1.5 1.5 0 0 1 .144 2.993L20 20.5H4a1.5 1.5 0 0 1-.144-2.993L4 17.5zm0-7a1.5 1.5 0 0 1 0 3H4a1.5 1.5 0 0 1 0-3zm0-7a1.5 1.5 0 0 1 0 3H4a1.5 1.5 0 1 1 0-3z"/></g>
+                </svg>
+    
+                <img style="margin-left: 40px; width: 65px; height: 65px;" src="./wikipedia.png" alt="Logo Wikipedia">
+            
+            <article style="margin-left: -20px;">
+                <h2
+                style="font-family: 'Times New Roman', Times, serif; font-size: 15px;color: rgb(131, 130, 130);">WIKIPÉDIA</h2>
+                <h5 style="font-family: 'Times New Roman', Times, serif; position: relative; left: 32px;top: -20px; color: rgb(190, 190, 190);">Enciclopédia Digital Livre</h5>
+            </article>
+    
+            <input type="text"
+            style="width: 420px;
+            height: 23px;
+            border: 1px solid lightgray;
+            margin-top: 15px;
+            margin-left: 75px;"
+            placeholder="Pesquisa Na Wikipedia"
+            >
+            <button
+            style="width: 120px;
+            height: 26.5px;
+            border: 1px solid lightgray;
+            margin-top: 15px;">Pesquisar</button>
+            
+            <svg style="width: 60px; height:60px; margin-left:120px" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512"><mask id="circleFlagsOlympics0"><circle cx="256" cy="256" r="256" fill="#fff"/></mask><g mask="url(#circleFlagsOlympics0)"><path fill="#eee" d="M0 0h512v512H0z"/><path fill="#338af3" d="M109.6 153.1A71.8 71.8 0 0 0 38 224.7a71.8 71.8 0 0 0 71.6 71.6a71.8 71.8 0 0 0 71.6-71.6a71.8 71.8 0 0 0-71.6-71.6m0 20c28.6 0 51.6 23 51.6 51.6s-23 51.6-51.6 51.6s-51.6-23-51.6-51.6s23-51.6 51.6-51.6"/><path fill="#333" d="M256 153.1a71.8 71.8 0 0 0-71.6 71.6a71.8 71.8 0 0 0 71.6 71.6a71.8 71.8 0 0 0 71.6-71.6a71.8 71.8 0 0 0-71.6-71.6m0 20c28.6 0 51.6 23 51.6 51.6s-23 51.6-51.6 51.6s-51.6-23-51.6-51.6s23-51.6 51.6-51.6"/><path fill="#d80027" d="M402.4 153.1a71.8 71.8 0 0 0-71.6 71.6a71.8 71.8 0 0 0 71.6 71.6a71.8 71.8 0 0 0 71.6-71.6a71.8 71.8 0 0 0-71.6-71.6m0 20c28.6 0 51.6 23 51.6 51.6s-23 51.6-51.6 51.6s-51.6-23-51.6-51.6s23-51.6 51.6-51.6"/><path fill="#ffda44" d="M182.8 215.7a71.8 71.8 0 0 0-71.6 71.6a71.8 71.8 0 0 0 71.6 71.6a71.8 71.8 0 0 0 71.6-71.6a71.8 71.8 0 0 0-71.6-71.6m0 20c28.6 0 51.6 23 51.6 51.6s-23 51.6-51.6 51.6s-51.6-23-51.6-51.6s23-51.6 51.6-51.6"/><path fill="#6da544" d="M329.2 215.7a71.8 71.8 0 0 0-71.6 71.6a71.8 71.8 0 0 0 71.6 71.6a71.8 71.8 0 0 0 71.6-71.6a71.8 71.8 0 0 0-71.6-71.6m0 20c28.6 0 51.6 23 51.6 51.6s-23 51.6-51.6 51.6s-51.6-23-51.6-51.6s23-51.6 51.6-51.6"/><path fill="#338af3" d="m166.9 181.7l-16 12a51.5 51.5 0 0 1 0 61.9l16 12a71.6 71.6 0 0 0 0-85.9"/><path fill="#333" d="m313.3 181.7l-16 12a51.5 51.5 0 0 1 0 61.9l16 12a71.6 71.6 0 0 0 0-85.9M225 266l-12 16a71.7 71.7 0 0 0 43 14.3v-20a51.5 51.5 0 0 1-31-10.3"/><path fill="#d80027" d="m371.4 266l-12 16a71.7 71.7 0 0 0 43 14.3v-20a51.5 51.5 0 0 1-31-10.3"/></g></svg>
+    
+        </header>
+     </center>   
+     
+
+    <section></section>
+    <h1>Times de Basquete Olimpiadas</h1>
+    
+    <table>
+        <tr>
+            
+            <th>Anos</th>
+            <th>País</th>
+            <th>medalhas</th> 
+            <Th>Placar</Th>
+            <th>Destaques</th>
+        </tr>
+        <tr>
+            
+            <td>1936</td>
+            <td>Estados Unidos</td>
+            <td>Ouro</td>
+            <td>EUA 19 - Canadá 8</td>
+            <td>Primeira participação e medalha de ouro</td>
+        </tr>
+        <tr>
+            
+            <td>1952</td>
+            <td>União Sovietica</td>
+            <td>Ouro</td>
+            <td>URSS 36 - Estados Unidos 25</td>
+            <td>Primeira medalha de ouro para a União Soviética</td>
+        </tr>
+        <tr>
+            <td>1960</td>
+            <td>Estados Unidos</td>
+            <td>Ouro</td>
+            <td>EUA 90 - Brasil 63</td>
+            <td>Início da era dominante dos EUA no basquete olímpico</td>
+        </tr>
+        <tr>
+            <td>1972</td>
+            <td>União Sovietica</td>
+            <td>Ouro</td>
+            <td>URSS 51 - Estados Unidos 50</td>
+            <td>Famosa final contra os EUA, controversa</td>
+        </tr>
+        <tr>
+            <td>1992</td>
+            <td>estados Unidos</td>
+            <td>Ouro</td>
+            <td>EUA 117 - Croácia 85</td>
+            <td>"Dream Team" com estrelas da NBA</td>
+        </tr>
+        <tr>
+            <td>2004</td>
+            <td>Argentina</td>
+            <td>Ouro</td>
+            <td>Argentina 84 - Itália 69</td>
+            <td>Primeira medalha de ouro para a Argentina</td>
+        </tr>
+        <tr>
+            <td>2008</td>
+            <td>Estados Unidos</td>
+            <td>Ouro</td>
+            <td>EUA 118 - Espanha 107</td>
+            <td>Recuperação total após derrota em 2004</td>
+        </tr>
+        <tr>
+            <td>2021</td>
+            <td>Estados Unidos</td>
+            <td>Ouro</td>
+            <td>EUA 87 - França 82</td>
+            <td>Olimpiadas adiadas para 2021 devido à pandemia</td>
+        </tr>
+    
+    
+    </table>
+    
+    <footer style="text-align: center; margin-top: 20px; font-size: 14px;">
+        <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+                <path fill="currentColor" d="M128 56a72 72 0 1 0 72 72a72.08 72.08 0 0 0-72-72m0 104a31.8 31.8 0 0 0 25.61-12.8a8 8 0 1 1 12.79 9.61a48 48 0 1 1 0-57.63a8 8 0 1 1-12.79 9.61A32 32 0 1 0 128 160m0-136a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24m0 192a88 88 0 1 1 88-88a88.1 88.1 0 0 1-88 88"/>
+            </svg> Copyright by: 0Mori
+        </p>
+        <p>
+            <a href="https://www.instagram.com/0_mori7/" style="text-decoration: none; color: inherit;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1024 1024">
+                    <path fill="currentColor" d="M512 306.9c-113.5 0-205.1 91.6-205.1 205.1S398.5 717.1 512 717.1S717.1 625.5 717.1 512S625.5 306.9 512 306.9m0 338.4c-73.4 0-133.3-59.9-133.3-133.3S438.6 378.7 512 378.7S645.3 438.6 645.3 512S585.4 645.3 512 645.3m213.5-394.6c-26.5 0-47.9 21.4-47.9 47.9s21.4 47.9 47.9 47.9s47.9-21.3 47.9-47.9a47.84 47.84 0 0 0-47.9-47.9M911.8 512c0-55.2.5-109.9-2.6-165c-3.1-64-17.7-120.8-64.5-167.6c-46.9-46.9-103.6-61.4-167.6-64.5c-55.2-3.1-109.9-2.6-165-2.6c-55.2 0-109.9-.5-165 2.6c-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6c46.9 46.9 103.6 61.4 167.6 64.5c55.2 3.1 109.9 2.6 165 2.6c55.2 0 109.9.5 165-2.6c64-3.1 120.8-17.7 167.6-64.5c46.9-46.9 61.4-103.6 64.5-167.6c3.2-55.1 2.6-109.8 2.6-165m-88 235.8c-7.3 18.2-16.1 31.8-30.2 45.8c-14.1 14.1-27.6 22.9-45.8 30.2C695.2 844.7 570.3 840 512 840s-183.3 4.7-235.9-16.1c-18.2-7.3-31.8-16.1-45.8-30.2c-14.1-14.1-22.9-27.6-30.2-45.8C328.7 695.2 184 570.3 184 512s-4.7-183.3 16.1-235.9c7.3-18.2 16.1-31.8 30.2-45.8s27.6-22.9 45.8-30.2C328.7 328.7 453.7 184 512 184s183.3-4.7 235.9 16.1c18.2 7.3 31.8 16.1 45.8 30.2c14.1 14.1 22.9 27.6 30.2 45.8C844.7 328.7 840 453.7 840 512s4.7 183.2-16.2 235.8"/>
+                </svg> Instagram: @0_mori7
+            </a>
+        </p>
+    </footer>
+
+
+
+    
+</body>
+</html>
